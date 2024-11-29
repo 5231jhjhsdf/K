@@ -1,0 +1,9 @@
+[2024-11-15 14:25:49] [info]  [ 5624] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-11-15 14:25:49] [info]  [ 5624] Running 'neo4j' Service...
+[2024-11-15 14:25:49] [info]  [ 6900] Starting service...
+[2024-11-15 14:25:49] [error] [ 6900] Failed creating java D:\java\JDK_8\JDK8\bin\server\jvm.dll
+[2024-11-15 14:25:49] [error] [ 6900] 系统找不到指定的路径。
+[2024-11-15 14:25:49] [error] [ 6900] ServiceStart returned 1
+[2024-11-15 14:25:49] [error] [ 6900] 系统找不到指定的路径。
+[2024-11-15 14:25:49] [info]  [ 5624] Run service finished.
+[2024-11-15 14:25:49] [info]  [ 5624] Commons Daemon procrun finished

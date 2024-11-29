@@ -1,0 +1,5 @@
+[2024-11-20 21:46:32] [info]  [ 3392] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-11-20 21:46:32] [info]  [ 3392] Stopping service 'neo4j' ...
+[2024-11-20 21:46:33] [info]  [ 3392] Service 'neo4j' stopped
+[2024-11-20 21:46:33] [info]  [ 3392] Stop service finished.
+[2024-11-20 21:46:33] [info]  [ 3392] Commons Daemon procrun finished

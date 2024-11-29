@@ -1,0 +1,27 @@
+[2024-10-30 01:29:53] [info]  [ 5540] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-30 01:29:53] [info]  [ 5540] Running 'neo4j' Service...
+[2024-10-30 01:29:53] [info]  [ 6880] Starting service...
+[2024-10-30 01:29:53] [error] [ 6880] Failed creating java D:\java\JDK_8\JDK8\bin\server\jvm.dll
+[2024-10-30 01:29:53] [error] [ 6880] 系统找不到指定的路径。
+[2024-10-30 01:29:53] [error] [ 6880] ServiceStart returned 1
+[2024-10-30 01:29:53] [error] [ 6880] 系统找不到指定的路径。
+[2024-10-30 01:29:53] [info]  [ 5540] Run service finished.
+[2024-10-30 01:29:53] [info]  [ 5540] Commons Daemon procrun finished
+[2024-10-30 02:39:03] [info]  [ 5388] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-30 02:39:03] [info]  [ 5388] Running 'neo4j' Service...
+[2024-10-30 02:39:03] [info]  [ 6880] Starting service...
+[2024-10-30 02:39:03] [error] [ 6880] Failed creating java D:\java\JDK_8\JDK8\bin\server\jvm.dll
+[2024-10-30 02:39:03] [error] [ 6880] 系统找不到指定的路径。
+[2024-10-30 02:39:03] [error] [ 6880] ServiceStart returned 1
+[2024-10-30 02:39:03] [error] [ 6880] 系统找不到指定的路径。
+[2024-10-30 02:39:03] [info]  [ 5388] Run service finished.
+[2024-10-30 02:39:03] [info]  [ 5388] Commons Daemon procrun finished
+[2024-10-30 23:24:41] [info]  [ 6576] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-30 23:24:41] [info]  [ 6576] Running 'neo4j' Service...
+[2024-10-30 23:24:41] [info]  [ 8524] Starting service...
+[2024-10-30 23:24:41] [error] [ 8524] Failed creating java D:\java\JDK_8\JDK8\bin\server\jvm.dll
+[2024-10-30 23:24:41] [error] [ 8524] 系统找不到指定的路径。
+[2024-10-30 23:24:41] [error] [ 8524] ServiceStart returned 1
+[2024-10-30 23:24:41] [error] [ 8524] 系统找不到指定的路径。
+[2024-10-30 23:24:41] [info]  [ 6576] Run service finished.
+[2024-10-30 23:24:41] [info]  [ 6576] Commons Daemon procrun finished

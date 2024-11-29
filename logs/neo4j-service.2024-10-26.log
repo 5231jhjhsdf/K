@@ -1,0 +1,5 @@
+[2024-10-26 18:17:57] [info]  [22008] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-26 18:17:57] [info]  [22008] Stopping service 'neo4j' ...
+[2024-10-26 18:17:58] [info]  [22008] Service 'neo4j' stopped
+[2024-10-26 18:17:58] [info]  [22008] Stop service finished.
+[2024-10-26 18:17:58] [info]  [22008] Commons Daemon procrun finished

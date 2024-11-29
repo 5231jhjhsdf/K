@@ -1,0 +1,14 @@
+[2024-10-29 20:54:04] [info]  [ 6860] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-29 20:54:04] [info]  [ 6860] Running 'neo4j' Service...
+[2024-10-29 20:54:04] [info]  [ 8200] Starting service...
+[2024-10-29 20:54:04] [error] [ 8200] Failed creating java D:\java\JDK_8\JDK8\bin\server\jvm.dll
+[2024-10-29 20:54:04] [error] [ 8200] 系统找不到指定的路径。
+[2024-10-29 20:54:04] [error] [ 8200] ServiceStart returned 1
+[2024-10-29 20:54:04] [error] [ 8200] 系统找不到指定的路径。
+[2024-10-29 20:54:04] [info]  [ 6860] Run service finished.
+[2024-10-29 20:54:04] [info]  [ 6860] Commons Daemon procrun finished
+[2024-10-29 21:21:25] [info]  [ 9004] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-29 21:21:25] [info]  [ 9004] Stopping service 'neo4j' ...
+[2024-10-29 21:21:26] [info]  [ 9004] Service 'neo4j' stopped
+[2024-10-29 21:21:26] [info]  [ 9004] Stop service finished.
+[2024-10-29 21:21:26] [info]  [ 9004] Commons Daemon procrun finished

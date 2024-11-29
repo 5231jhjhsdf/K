@@ -1,0 +1,58 @@
+[2024-10-20 19:46:47] [info]  [ 9640] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 19:46:47] [info]  [ 9640] Starting service 'neo4j' ...
+[2024-10-20 19:46:47] [info]  [17268] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 19:46:47] [info]  [17268] Running 'neo4j' Service...
+[2024-10-20 19:46:47] [info]  [12876] Starting service...
+[2024-10-20 19:46:49] [info]  [12876] Service started in 1776 ms.
+[2024-10-20 19:46:50] [error] [ 9640] Failed to start 'neo4j' service
+[2024-10-20 19:46:50] [error] [ 9640] 传递给系统调用的数据区域太小。
+[2024-10-20 19:46:51] [info]  [ 9640] Start service finished.
+[2024-10-20 19:46:51] [error] [ 9640] Commons Daemon procrun failed with exit value: 5 (Failed to start service)
+[2024-10-20 19:46:51] [error] [ 9640] 传递给系统调用的数据区域太小。
+[2024-10-20 19:59:22] [info]  [25520] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 19:59:22] [info]  [25520] Service neo4j name Neo4j Graph Database - neo4j
+[2024-10-20 19:59:22] [info]  [25520] Service 'neo4j' installed
+[2024-10-20 19:59:22] [info]  [25520] Commons Daemon procrun finished
+[2024-10-20 19:59:35] [info]  [ 1984] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 19:59:35] [info]  [ 1984] Starting service 'neo4j' ...
+[2024-10-20 19:59:35] [info]  [13028] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 19:59:35] [info]  [13028] Running 'neo4j' Service...
+[2024-10-20 19:59:35] [info]  [10448] Starting service...
+[2024-10-20 19:59:36] [info]  [10448] Service started in 1431 ms.
+[2024-10-20 19:59:38] [error] [ 1984] Failed to start 'neo4j' service
+[2024-10-20 19:59:38] [error] [ 1984] 传递给系统调用的数据区域太小。
+[2024-10-20 19:59:38] [info]  [ 1984] Start service finished.
+[2024-10-20 19:59:38] [error] [ 1984] Commons Daemon procrun failed with exit value: 5 (Failed to start service)
+[2024-10-20 19:59:38] [error] [ 1984] 传递给系统调用的数据区域太小。
+[2024-10-20 20:00:55] [info]  [ 3592] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 20:00:55] [info]  [ 3592] Updating service...
+[2024-10-20 20:00:55] [info]  [ 3592] Service 'neo4j' updated
+[2024-10-20 20:00:55] [info]  [ 3592] Update service finished.
+[2024-10-20 20:00:55] [info]  [ 3592] Commons Daemon procrun finished
+[2024-10-20 20:01:03] [info]  [23096] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 20:01:03] [info]  [23096] Starting service 'neo4j' ...
+[2024-10-20 20:01:03] [info]  [27468] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 20:01:03] [info]  [27468] Running 'neo4j' Service...
+[2024-10-20 20:01:03] [info]  [18536] Starting service...
+[2024-10-20 20:01:05] [info]  [18536] Service started in 1435 ms.
+[2024-10-20 20:01:06] [error] [23096] Failed to start 'neo4j' service
+[2024-10-20 20:01:06] [error] [23096] 传递给系统调用的数据区域太小。
+[2024-10-20 20:01:06] [info]  [23096] Start service finished.
+[2024-10-20 20:01:06] [error] [23096] Commons Daemon procrun failed with exit value: 5 (Failed to start service)
+[2024-10-20 20:01:06] [error] [23096] 传递给系统调用的数据区域太小。
+[2024-10-20 20:11:18] [info]  [16884] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 20:11:18] [info]  [16884] Starting service 'neo4j' ...
+[2024-10-20 20:11:18] [info]  [13576] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 20:11:18] [info]  [13576] Running 'neo4j' Service...
+[2024-10-20 20:11:18] [info]  [27112] Starting service...
+[2024-10-20 20:11:20] [info]  [27112] Service started in 1428 ms.
+[2024-10-20 20:11:21] [error] [16884] Failed to start 'neo4j' service
+[2024-10-20 20:11:21] [error] [16884] 传递给系统调用的数据区域太小。
+[2024-10-20 20:11:21] [info]  [16884] Start service finished.
+[2024-10-20 20:11:21] [error] [16884] Commons Daemon procrun failed with exit value: 5 (Failed to start service)
+[2024-10-20 20:11:21] [error] [16884] 传递给系统调用的数据区域太小。
+[2024-10-20 20:50:32] [info]  [23560] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-10-20 20:50:32] [info]  [23560] Stopping service 'neo4j' ...
+[2024-10-20 20:50:33] [info]  [23560] Service 'neo4j' stopped
+[2024-10-20 20:50:33] [info]  [23560] Stop service finished.
+[2024-10-20 20:50:33] [info]  [23560] Commons Daemon procrun finished

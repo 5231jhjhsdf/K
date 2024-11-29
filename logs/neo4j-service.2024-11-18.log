@@ -1,0 +1,45 @@
+[2024-11-18 12:45:51] [info]  [ 5320] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-11-18 12:45:51] [info]  [ 5320] Running 'neo4j' Service...
+[2024-11-18 12:45:51] [info]  [ 6656] Starting service...
+[2024-11-18 12:45:51] [error] [ 6656] Failed creating java D:\java\JDK_8\JDK8\bin\server\jvm.dll
+[2024-11-18 12:45:51] [error] [ 6656] 系统找不到指定的路径。
+[2024-11-18 12:45:51] [error] [ 6656] ServiceStart returned 1
+[2024-11-18 12:45:51] [error] [ 6656] 系统找不到指定的路径。
+[2024-11-18 12:45:51] [info]  [ 5320] Run service finished.
+[2024-11-18 12:45:51] [info]  [ 5320] Commons Daemon procrun finished
+[2024-11-18 14:07:31] [info]  [ 5376] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-11-18 14:07:31] [info]  [ 5376] Running 'neo4j' Service...
+[2024-11-18 14:07:31] [info]  [ 6756] Starting service...
+[2024-11-18 14:07:31] [error] [ 6756] Failed creating java D:\java\JDK_8\JDK8\bin\server\jvm.dll
+[2024-11-18 14:07:31] [error] [ 6756] 系统找不到指定的路径。
+[2024-11-18 14:07:31] [error] [ 6756] ServiceStart returned 1
+[2024-11-18 14:07:31] [error] [ 6756] 系统找不到指定的路径。
+[2024-11-18 14:07:31] [info]  [ 5376] Run service finished.
+[2024-11-18 14:07:31] [info]  [ 5376] Commons Daemon procrun finished
+[2024-11-18 18:41:16] [info]  [ 5200] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-11-18 18:41:16] [info]  [ 5200] Running 'neo4j' Service...
+[2024-11-18 18:41:16] [info]  [ 6244] Starting service...
+[2024-11-18 18:41:16] [error] [ 6244] Failed creating java D:\java\JDK_8\JDK8\bin\server\jvm.dll
+[2024-11-18 18:41:16] [error] [ 6244] 系统找不到指定的路径。
+[2024-11-18 18:41:16] [error] [ 6244] ServiceStart returned 1
+[2024-11-18 18:41:16] [error] [ 6244] 系统找不到指定的路径。
+[2024-11-18 18:41:16] [info]  [ 5200] Run service finished.
+[2024-11-18 18:41:16] [info]  [ 5200] Commons Daemon procrun finished
+[2024-11-18 22:50:11] [info]  [ 5416] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-11-18 22:50:11] [info]  [ 5416] Running 'neo4j' Service...
+[2024-11-18 22:50:11] [info]  [ 6896] Starting service...
+[2024-11-18 22:50:11] [error] [ 6896] Failed creating java D:\java\JDK_8\JDK8\bin\server\jvm.dll
+[2024-11-18 22:50:11] [error] [ 6896] 系统找不到指定的路径。
+[2024-11-18 22:50:11] [error] [ 6896] ServiceStart returned 1
+[2024-11-18 22:50:11] [error] [ 6896] 系统找不到指定的路径。
+[2024-11-18 22:50:11] [info]  [ 5416] Run service finished.
+[2024-11-18 22:50:11] [info]  [ 5416] Commons Daemon procrun finished
+[2024-11-18 23:15:30] [info]  [ 5368] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-11-18 23:15:30] [info]  [ 5368] Running 'neo4j' Service...
+[2024-11-18 23:15:30] [info]  [ 6736] Starting service...
+[2024-11-18 23:15:30] [error] [ 6736] Failed creating java D:\java\JDK_8\JDK8\bin\server\jvm.dll
+[2024-11-18 23:15:30] [error] [ 6736] 系统找不到指定的路径。
+[2024-11-18 23:15:30] [error] [ 6736] ServiceStart returned 1
+[2024-11-18 23:15:30] [error] [ 6736] 系统找不到指定的路径。
+[2024-11-18 23:15:30] [info]  [ 5368] Run service finished.
+[2024-11-18 23:15:30] [info]  [ 5368] Commons Daemon procrun finished

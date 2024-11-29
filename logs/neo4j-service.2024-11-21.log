@@ -1,0 +1,15 @@
+[2024-11-21 08:58:04] [info]  [14224] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-11-21 08:58:04] [info]  [14224] Stopping service 'neo4j' ...
+[2024-11-21 08:58:05] [info]  [14224] Service 'neo4j' stopped
+[2024-11-21 08:58:05] [info]  [14224] Stop service finished.
+[2024-11-21 08:58:05] [info]  [14224] Commons Daemon procrun finished
+[2024-11-21 14:02:12] [info]  [12172] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-11-21 14:02:12] [info]  [12172] Stopping service 'neo4j' ...
+[2024-11-21 14:02:13] [info]  [12172] Service 'neo4j' stopped
+[2024-11-21 14:02:13] [info]  [12172] Stop service finished.
+[2024-11-21 14:02:13] [info]  [12172] Commons Daemon procrun finished
+[2024-11-21 14:34:58] [info]  [13344] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-11-21 14:34:58] [info]  [13344] Stopping service 'neo4j' ...
+[2024-11-21 14:34:59] [info]  [13344] Service 'neo4j' stopped
+[2024-11-21 14:34:59] [info]  [13344] Stop service finished.
+[2024-11-21 14:34:59] [info]  [13344] Commons Daemon procrun finished
