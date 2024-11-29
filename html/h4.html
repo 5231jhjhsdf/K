@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect to Neo4j</title>
+  <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <style>
+    #mynetwork {
+      width: 100%;
+      height: 500px;
+      border: 1px solid lightgray;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      list-style: none;
+    }
+
+    .legend-circle {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    }
+
+    .color-box {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      border-radius: 50%;
+      /* background-color: red; */
+    }
+
+    .button {
+      padding: 10px 20px;
+      /* 按钮内边距 */
+      font-size: 16px;
+      /* 字体大小 */
+      font-weight: bold;
+      /* 字体加粗 */
+      color: white;
+      /* 文字颜色 */
+      background-color: #7fa7d3;
+      /* 按钮背景颜色 */
+      border: none;
+      /* 无边框 */
+      border-radius: 5px;
+      /* 边框圆角 */
+      cursor: pointer;
+      /* 鼠标悬停时显示指针 */
+      outline: none;
+      /* 点击时无轮廓 */
+      transition: background-color 0.3s;
+      /* 背景颜色变化过渡效果 */
+      margin-left: auto;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+      /* 鼠标悬停时的背景颜色 */
+    }
+
+    .button:active {
+      background-color: #004085;
+      /* 按钮被按下时的背景颜色 */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <h1>Knowledge Graph from RECOMMENDED_FOR</h1> -->
+  <div class="legend">
+    <div class="legend-circle">
+      <div class="color-box" style="background-color: #33a02c;"></div>
+      <span>并发症</span>
+    </div>
+    <div class="legend-circle">
+      <div class="color-box" style="background-color: #e41a1c;"></div>
+      <span>疾病病种</span>
+    </div>
+    <button id="fetchData" class="button">点击</button>
+    <div id="mynetwork"></div>
+
+    <script>
+      document.getElementById('fetchData').addEventListener('click', async () => {
+        const url = 'http://localhost:3005/data4'; // 修改为 data1, data2, data3, data4, data5
+
+        try {
+          const response = await fetch(url);
+
+          if (response.ok) {
+            const data = await response.json();
+            console.log('Fetched data:', data);
+
+            const nodes = new vis.DataSet(data.nodes);
+            const edges = new vis.DataSet(data.edges);
+
+            const container = document.getElementById('mynetwork');
+            const options = {
+              layout: {
+                improvedLayout: false
+              },
+              edges: {
+                arrows: { to: { enabled: true } }
+              },
+              nodes: {
+                shape: 'dot',
+                color: {
+                  background: '#1f78b4' // 默认颜色
+                }
+              }
+            };
+            const network = new vis.Network(container, { nodes: nodes, edges: edges }, options);
+
+            // 设置节点颜色
+            nodes.on('add', function (event, properties) {
+              const node = properties.nodes;
+              node.color = {
+                background: node.color
+              };
+              this.body.emitter.emit('updateNode', node.id);
+            });
+          } else {
+            console.error('Error fetching data:', response.statusText);
+          }
+        } catch (error) {
+          console.error('Fetch error:', error);
+        }
+      });
+    </script>
+</body>
+
+</html>
